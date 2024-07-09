@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MagicOnion.Shared</name>
+    </assembly>
+    <members>
+        <member name="M:MagicOnion.MetadataExtensions.GetOrDefault(Grpc.Core.Metadata,System.String,System.Boolean)">
+            <summary>
+            Get metdata entry. If does not exists, return null.
+            </summary>
+        </member>
+        <member name="M:MagicOnion.MetadataExtensions.GetValueOrDefault(Grpc.Core.Metadata,System.String,System.Boolean)">
+            <summary>
+            Get metdata string value. If does not exists, return null.
+            </summary>
+        </member>
+        <member name="T:MagicOnion.Serialization.MagicOnionSerializerProvider">
+            <summary>
+            Provides a serializer for request/response of MagicOnion services and hub methods.
+            </summary>
+        </member>
+        <member name="P:MagicOnion.Serialization.MagicOnionSerializerProvider.Default">
+            <summary>
+            Gets or sets the <see cref="T:MagicOnion.Serialization.IMagicOnionSerializerProvider"/> to be used by default.
+            </summary>
+        </member>
+    </members>
+</doc>
